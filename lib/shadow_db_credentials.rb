@@ -1,1 +1,1 @@
-require "shadow_db_credentials"
+require "shadow_db_credentials/shadow_db_credentials"
