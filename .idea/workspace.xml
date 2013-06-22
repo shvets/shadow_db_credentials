@@ -2,24 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48445419-a9bd-462b-a38e-4f503de87dd4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.ruby-gemset" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.ruby-version" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jenkinsSettings.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.rvmrc" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CHANGES" afterPath="$PROJECT_DIR$/CHANGES" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/shadow_db_credentials.iml" afterPath="$PROJECT_DIR$/.idea/shadow_db_credentials.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/shadow_db_credentials.rb" afterPath="$PROJECT_DIR$/lib/shadow_db_credentials.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/shadow_db_credentials/shadow_db_credentials.rb" afterPath="$PROJECT_DIR$/lib/shadow_db_credentials/shadow_db_credentials.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/shadow_db_credentials_spec.rb" afterPath="$PROJECT_DIR$/spec/shadow_db_credentials_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/spec_helper.rb" afterPath="$PROJECT_DIR$/spec/spec_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/shadow_db_credentials/version.rb" afterPath="$PROJECT_DIR$/lib/shadow_db_credentials/version.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="shadow_db_credentials.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1371916717626" ignored="false" />
+    <file path="/Dummy.txt" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1371916803402" ignored="false" />
     <file path="/.ruby-version" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1371914161925" ignored="false" />
     <file path="/CHANGES" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1371914623579" ignored="false" />
     <file path="/version.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1371914648138" ignored="false" />
@@ -414,6 +401,11 @@
       <created>1371913999140</created>
       <updated>1371913999140</updated>
     </task>
+    <task id="LOCAL-00001" summary="bug fixes">
+      <created>1371916807991</created>
+      <updated>1371916807991</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
