@@ -1,3 +1,3 @@
-module ShadowDbCredentials
-  VERSION = "1.0.2"
+class ShadowDbCredentials
+  VERSION = "1.0.3"
 end

@@ -27,7 +27,9 @@ class ShadowDbCredentials
   def process_configuration configurations, rails_env
     new_configurations = configurations.clone
 
-    new_configurations[rails_env] = process_credentials(configurations[rails_env])
+    config = indifferent_access(configurations[rails_env])
+
+    new_configurations[rails_env] = process_credentials(config)
 
     new_configurations
   end
@@ -35,19 +37,30 @@ class ShadowDbCredentials
   private
 
   def process_credentials params
-    if params['credentials']
-      credentials = params.delete('credentials')
+    if params[:credentials]
+      credentials = params.delete(:credentials)
 
-      file_name = "#@credentials_dir/#{credentials}"
+      file_name = "#{@credentials_dir}/#{credentials}"
 
       if File.exist? file_name
-        params.merge!(YAML.load_file(file_name))
+        params.merge!(indifferent_access(YAML.load_file(file_name)))
       else
         puts "Missing credentials file: #{file_name}."
       end
     end
 
     params
+  end
+
+  def indifferent_access hash
+    hash.default_proc = proc do |h, k|
+      case k
+        when String then sym = k.to_sym; h[sym] if h.key?(sym)
+        when Symbol then str = k.to_s; h[str] if h.key?(str)
+      end
+    end
+
+    hash
   end
 end
 
