@@ -1,3 +1,5 @@
+require 'erb'
+
 class ShadowDbCredentials
 
   def initialize credentials_dir
@@ -9,27 +11,17 @@ class ShadowDbCredentials
 
     template = ERB.new file.read
 
-    config = YAML.load(template.result(binding))
+    config = indifferent_access(YAML.load(template.result(binding)))
 
-    process_credentials(config[rails_env])
+    process_credentials(config[rails_env.to_sym])
   end
 
-  def process_all_configurations configurations
+  def process_configurations configurations
     new_configurations = {}
 
     configurations.each do |name, params|
       new_configurations[name] = process_credentials(params)
     end
-
-    new_configurations
-  end
-
-  def process_configuration configurations, rails_env
-    new_configurations = configurations.clone
-
-    config = indifferent_access(configurations[rails_env])
-
-    new_configurations[rails_env] = process_credentials(config)
 
     new_configurations
   end
@@ -53,14 +45,18 @@ class ShadowDbCredentials
   end
 
   def indifferent_access hash
-    hash.default_proc = proc do |h, k|
-      case k
-        when String then sym = k.to_sym; h[sym] if h.key?(sym)
-        when Symbol then str = k.to_s; h[str] if h.key?(str)
-      end
+    case hash
+      when Hash
+        Hash[
+          hash.map do |k, v|
+            [ k.respond_to?(:to_sym) ? k.to_sym : k, indifferent_access(v) ]
+          end
+        ]
+      when Enumerable
+        hash.map { |v| indifferent_access(v) }
+      else
+        hash
     end
-
-    hash
   end
 end
 
