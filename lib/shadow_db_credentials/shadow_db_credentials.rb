@@ -20,7 +20,7 @@ class ShadowDbCredentials
     new_configurations = {}
 
     configurations.each do |name, params|
-      new_configurations[name] = process_credentials(params)
+      new_configurations[name] = process_credentials(indifferent_access(params))
     end
 
     new_configurations
