@@ -79,6 +79,24 @@ end
 The hook will access original DB configuration and try to expand all **credentials** attributes
 with corresponding values dynamically, at run time.
 
+If you think that processing all environments is not necessary, you cant process only current environment:
+
+```ruby
+module YourRailsApp
+  class Application < Rails::Application
+    ...
+
+    def config.database_configuration
+      orig_db_configurations = super
+
+      processor = ShadowDbCredentials.new(ENV['CREDENTIALS_DIR'])
+
+      processor.process_configuration(orig_db_configurations, Rails.env)
+    end
+  end
+end
+```
+
 You can check result of your work:
 
 ```bash
@@ -101,8 +119,8 @@ processor = ShadowDbCredentials.new(credentials_dir)
 
 # 1. get production hash, read configuration from default location
 
-connection_hash1 = processor.retrieve_configuration "production"
-connection_hash1.inspect
+prod_conf = processor.retrieve_configuration "production"
+prod_conf.inspect
 
 # 2. get development hash, read configuration from dynamic source
 
@@ -112,8 +130,8 @@ source = StringIO.new <<-TEXT
     credentials: your_dev_db
 TEXT
 
-connection_hash2 = processor.retrieve_configuration 'development', source
-connection_has2.inspect
+dev_conf = processor.retrieve_configuration 'development', source
+dev_conf.inspect
 ```
 
 ## Contributing
