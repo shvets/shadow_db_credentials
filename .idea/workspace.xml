@@ -1,18 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48445419-a9bd-462b-a38e-4f503de87dd4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rakefile" afterPath="$PROJECT_DIR$/Rakefile" />
+    <list default="true" id="48445419-a9bd-462b-a38e-4f503de87dd4" name="Default" comment="Bug fixes; adf license to gemspec">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/active_support/hash_with_indifferent_access.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/active_support/core_ext/hash/indifferent_access.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/active_support/core_ext/hash/keys.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CHANGES" afterPath="$PROJECT_DIR$/CHANGES" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/shadow_db_credentials.iml" afterPath="$PROJECT_DIR$/.idea/shadow_db_credentials.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/shadow_db_credentials/shadow_db_credentials.rb" afterPath="$PROJECT_DIR$/lib/shadow_db_credentials/shadow_db_credentials.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/shadow_db_credentials_spec.rb" afterPath="$PROJECT_DIR$/spec/shadow_db_credentials_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/shadow_db_credentials/version.rb" afterPath="$PROJECT_DIR$/lib/shadow_db_credentials/version.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="shadow_db_credentials.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377364746628" ignored="false" />
+    <file path="/Dummy.txt" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377553403455" ignored="false" />
     <file path="/.ruby-version" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1371914161925" ignored="false" />
-    <file path="/CHANGES" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377363163066" ignored="false" />
-    <file path="/version.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377363175249" ignored="false" />
-    <file path="/shadow_db_credentials.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377358298876" ignored="false" />
-    <file path="/Gemfile" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377358834642" ignored="false" />
+    <file path="/CHANGES" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377553372838" ignored="false" />
+    <file path="/version.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1371914648138" ignored="false" />
+    <file path="/shadow_db_credentials.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377553129975" ignored="false" />
+    <file path="/Gemfile" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1371915176441" ignored="false" />
     <file path="/spec_helper.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1371914924728" ignored="false" />
     <file path="$PROJECT_DIR$/../rails-app-tmpl/Gemfile" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1371915114233" ignored="false" />
     <file path="/shadow_db_credentials_spec.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1371915800337" ignored="false" />
@@ -26,12 +34,11 @@
     <file path="$PROJECT_DIR$/../shvets.github.io/build/index.html" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1376662323891" ignored="false" />
     <file path="$PROJECT_DIR$/../shvets.github.io/blog/article_0003/using_gemfile_gems_inside_gemspec.html" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1376662323892" ignored="false" />
     <file path="$PROJECT_DIR$/../shvets.github.io/config.rrr" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1376666503612" ignored="false" />
-    <file path="/a.dummy" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377294738590" ignored="false" />
+    <file path="/a.dummy" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377529320581" ignored="false" />
     <file path="$PROJECT_DIR$/../rat/Gemfile" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1376667638160" ignored="false" />
     <file path="$PROJECT_DIR$/../rat/config/application.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1376681752557" ignored="false" />
     <file path="$PROJECT_DIR$/../rat/config/database.yml" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1376667899615" ignored="false" />
-    <file path="/fragment.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377292149283" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/.rakeTasks" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377291425668" ignored="false" />
+    <file path="/fragment.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377553183428" ignored="false" />
     <file path="$USER_HOME$/work/ui/neptune/config/application.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377291621486" ignored="false" />
     <file path="$USER_HOME$/work/ui/neptune/.rspec" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377291711486" ignored="false" />
     <file path="$USER_HOME$/work/ui/neptune/.simplecov" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377291787315" ignored="false" />
@@ -41,49 +48,69 @@
     <file path="$USER_HOME$/work/ui/src/spec/unit/models/cart_spec.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377292320811" ignored="false" />
     <file path="$USER_HOME$/work/ui/src/app/models/hitbox.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377292320811" ignored="false" />
     <file path="$USER_HOME$/work/ui/src/spec/unit/domain/landing_input_spec.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377292320811" ignored="false" />
-    <file path="$USER_HOME$/work/ui/src/db/schema.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377293866106" ignored="false" />
+    <file path="$USER_HOME$/work/ui/src/db/schema.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377527398053" ignored="false" />
     <file path="$USER_HOME$/work/ui/neptune/app/models/settings.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377293761633" ignored="false" />
     <file path="$USER_HOME$/work/ui/neptune/spec/services/external_service_spec.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377293562505" ignored="false" />
     <file path="$USER_HOME$/work/ui/neptune/app/services/services/external_service.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377294152829" ignored="false" />
-    <file path="$USER_HOME$/work/ui/neptune/app/services/address_validation/state_lookup_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377295494274" ignored="false" />
+    <file path="$USER_HOME$/work/ui/neptune/app/services/address_validation/state_lookup_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377530191994" ignored="false" />
     <file path="$USER_HOME$/work/ui/neptune/app/models/device_content.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377293954610" ignored="false" />
-    <file path="$USER_HOME$/work/ui/neptune/db/schema.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377293967126" ignored="false" />
+    <file path="$USER_HOME$/work/ui/neptune/db/schema.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377527398053" ignored="false" />
     <file path="$USER_HOME$/work/ui/neptune/Gemfile" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377294251949" ignored="false" />
-    <file path="$USER_HOME$/work/ui/neptune/app/services/services/abstract_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377294310104" ignored="false" />
-    <file path="$USER_HOME$/work/ui/neptune/app/services/avws/avws_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377295546936" ignored="false" />
-    <file path="$USER_HOME$/work/ui/neptune/app/services/choose_number/phone_number_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377295567740" ignored="false" />
-    <file path="$USER_HOME$/work/ui/neptune/app/services/loa/form_request_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377295517668" ignored="false" />
-    <file path="$USER_HOME$/work/ui/neptune/app/services/loa/writer_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377295604787" ignored="false" />
-    <file path="$USER_HOME$/work/ui/neptune/app/services/product_catalog/default_package_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377295634010" ignored="false" />
-    <file path="$USER_HOME$/work/ui/neptune/app/services/product_catalog/package_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377294803318" ignored="false" />
-    <file path="$USER_HOME$/work/ui/neptune/app/services/product_catalog/promo_package_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377294988282" ignored="false" />
-    <file path="$USER_HOME$/work/ui/neptune/app/services/product_catalog/rate_plan_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377294822812" ignored="false" />
-    <file path="$USER_HOME$/work/ui/neptune/app/services/product_catalog/retail_package_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377294831436" ignored="false" />
-    <file path="$USER_HOME$/work/ui/neptune/app/services/promotions_manager/raf_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377294838036" ignored="false" />
-    <file path="$USER_HOME$/work/ui/neptune/app/services/security/password_validator_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377294844668" ignored="false" />
-    <file path="$USER_HOME$/work/ui/neptune/app/services/security/username_availability_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377295477614" ignored="false" />
-    <file path="$USER_HOME$/work/ui/neptune/app/services/static_content/static_content_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377294870316" ignored="false" />
-    <file path="$USER_HOME$/work/ui/neptune/app/services/sws/invoice_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377295426430" ignored="false" />
-    <file path="$USER_HOME$/work/ui/neptune/app/services/sws/invoice_preview_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377294892065" ignored="false" />
-    <file path="$USER_HOME$/work/ui/neptune/app/services/sws/mac_address_validation_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377294898689" ignored="false" />
-    <file path="$USER_HOME$/work/ui/neptune/app/services/sws/retail_package_code_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377294904275" ignored="false" />
-    <file path="$USER_HOME$/work/ui/neptune/app/services/sws/retail_stores_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377294909178" ignored="false" />
-    <file path="$USER_HOME$/work/ui/neptune/app/services/sws/shipping_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377294917709" ignored="false" />
-    <file path="$USER_HOME$/work/ui/neptune/app/services/sws/store_payment_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377294927034" ignored="false" />
-    <file path="$USER_HOME$/work/ui/neptune/app/services/tax_services/query_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377294935851" ignored="false" />
-    <file path="$USER_HOME$/work/ui/neptune/app/services/services/base_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377294956778" ignored="false" />
-    <file path="$USER_HOME$/work/ui/neptune/app/services/crm/crm_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377294971123" ignored="false" />
-    <file path="$USER_HOME$/work/ui/neptune/app/services/resource_manager/resource_manager_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377295003626" ignored="false" />
+    <file path="$USER_HOME$/work/ui/neptune/app/services/services/abstract_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377525942355" ignored="false" />
+    <file path="$USER_HOME$/work/ui/neptune/app/services/avws/avws_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377524611648" ignored="false" />
+    <file path="$USER_HOME$/work/ui/neptune/app/services/choose_number/phone_number_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377530456796" ignored="false" />
+    <file path="$USER_HOME$/work/ui/neptune/app/services/loa/form_request_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377529039033" ignored="false" />
+    <file path="$USER_HOME$/work/ui/neptune/app/services/loa/writer_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377528741606" ignored="false" />
+    <file path="$USER_HOME$/work/ui/neptune/app/services/product_catalog/default_package_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377528344234" ignored="false" />
+    <file path="$USER_HOME$/work/ui/neptune/app/services/product_catalog/package_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377530803948" ignored="false" />
+    <file path="$USER_HOME$/work/ui/neptune/app/services/product_catalog/promo_package_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377529168009" ignored="false" />
+    <file path="$USER_HOME$/work/ui/neptune/app/services/product_catalog/rate_plan_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377528741606" ignored="false" />
+    <file path="$USER_HOME$/work/ui/neptune/app/services/product_catalog/retail_package_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377528741606" ignored="false" />
+    <file path="$USER_HOME$/work/ui/neptune/app/services/promotions_manager/raf_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377528741606" ignored="false" />
+    <file path="$USER_HOME$/work/ui/neptune/app/services/security/password_validator_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377528741606" ignored="false" />
+    <file path="$USER_HOME$/work/ui/neptune/app/services/security/username_availability_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377528741606" ignored="false" />
+    <file path="$USER_HOME$/work/ui/neptune/app/services/static_content/static_content_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377528741606" ignored="false" />
+    <file path="$USER_HOME$/work/ui/neptune/app/services/sws/invoice_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377528741606" ignored="false" />
+    <file path="$USER_HOME$/work/ui/neptune/app/services/sws/invoice_preview_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377528741606" ignored="false" />
+    <file path="$USER_HOME$/work/ui/neptune/app/services/sws/mac_address_validation_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377528741606" ignored="false" />
+    <file path="$USER_HOME$/work/ui/neptune/app/services/sws/retail_package_code_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377528741606" ignored="false" />
+    <file path="$USER_HOME$/work/ui/neptune/app/services/sws/retail_stores_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377528741606" ignored="false" />
+    <file path="$USER_HOME$/work/ui/neptune/app/services/sws/shipping_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377528741606" ignored="false" />
+    <file path="$USER_HOME$/work/ui/neptune/app/services/sws/store_payment_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377528741606" ignored="false" />
+    <file path="$USER_HOME$/work/ui/neptune/app/services/tax_services/query_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377528741606" ignored="false" />
+    <file path="$USER_HOME$/work/ui/neptune/app/services/services/base_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377528741606" ignored="false" />
+    <file path="$USER_HOME$/work/ui/neptune/app/services/crm/crm_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377528934427" ignored="false" />
+    <file path="$USER_HOME$/work/ui/neptune/app/services/resource_manager/resource_manager_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377524228787" ignored="false" />
     <file path="$USER_HOME$/work/ui/neptune/spec/services/abstract_gateway_spec.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377295141894" ignored="false" />
-    <file path="$PROJECT_DIR$/../shvets.github.io/source/blog/2013-08-16-how_to_protect_db_credentials_in_rails_app.md" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377358711460" ignored="false" />
-    <file path="/2013-08-16-how_to_protect_db_credentials_in_rails_app.md" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377358698216" ignored="false" />
-    <file path="$PROJECT_DIR$/../resource_accessor/Rakefile" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377363114870" ignored="false" />
-    <file path="$PROJECT_DIR$/../resource_accessor/CHANGES" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377363163619" ignored="false" />
-    <file path="$PROJECT_DIR$/../resource_accessor/lib/resource_accessor/version.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377363175880" ignored="false" />
-    <file path="$PROJECT_DIR$/../resource_accessor/README.md" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377364271126" ignored="false" />
-    <file path="/README.md" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377364271126" ignored="false" />
-    <file path="$PROJECT_DIR$/../resource_accessor/lib/resource_accessor/resource_accessor.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377363969747" ignored="false" />
-    <file path="/resource_accessor.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377363918933" ignored="false" />
+    <file path="/default_package_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377526453816" ignored="false" />
+    <file path="$USER_HOME$/work/ui/neptune/test.xml" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377526353204" ignored="false" />
+    <file path="/form_request_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377528974380" ignored="false" />
+    <file path="$PROJECT_DIR$/../resource_accessor/lib/resource_accessor/resource_accessor.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377526609016" ignored="false" />
+    <file path="$USER_HOME$/work/ui/neptune/spec/external_services/loa/form_request_gateway_spec.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377528374762" ignored="false" />
+    <file path="/form_request_gateway_spec.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377527082174" ignored="false" />
+    <file path="/invoice_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377528402250" ignored="false" />
+    <file path="$PROJECT_DIR$/../jquery_auto_filler/.idea/workspace.xml" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377528312497" ignored="false" />
+    <file path="/state_lookup_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377530165506" ignored="false" />
+    <file path="/crm_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377528934427" ignored="false" />
+    <file path="$USER_HOME$/work/ui/neptune/spec/external_services/choose_number/phone_number_gateway_spec.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377530491665" ignored="false" />
+    <file path="$USER_HOME$/work/ui/neptune/spec/external_services/security/username_availability_gateway_spec.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377529068828" ignored="false" />
+    <file path="/promo_package_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377529152257" ignored="false" />
+    <file path="$USER_HOME$/work/ui/neptune/spec/external_services/loa/writer_gateway_spec.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377529210916" ignored="false" />
+    <file path="$USER_HOME$/work/ui/neptune/spec/external_services/sws/store_payment_gateway_spec.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377529235660" ignored="false" />
+    <file path="$USER_HOME$/work/ui/neptune/spec/external_services/sws/invoice_gateway_escape_characters_spec.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377529250835" ignored="false" />
+    <file path="$USER_HOME$/work/ui/neptune/spec/support/external_services_shared_context.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377529758135" ignored="false" />
+    <file path="/external_services_shared_context.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377529645023" ignored="false" />
+    <file path="$USER_HOME$/work/ui/neptune/spec/external_services/address_validation/state_lookup_gateway_spec.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377530254945" ignored="false" />
+    <file path="/state_lookup_gateway_spec.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377530255530" ignored="false" />
+    <file path="/phone_number_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377530449928" ignored="false" />
+    <file path="/phone_number_gateway_spec.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377531297981" ignored="false" />
+    <file path="/package_gateway.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377530801940" ignored="false" />
+    <file path="/package_gateway_spec.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377531126820" ignored="false" />
+    <file path="$USER_HOME$/work/ui/neptune/spec/external_services/product_catalog/package_gateway_spec.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377531147819" ignored="false" />
+    <file path="$USER_HOME$/work/ui/neptune/spec/services/choose_number/phone_number_gateway_spec.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377531429667" ignored="false" />
+    <file path="$USER_HOME$/work/ui/neptune/lib/tasks/rspec.rake" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377551807713" ignored="false" />
+    <file path="/rspec.rake" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377551804534" ignored="false" />
+    <file path="/indifferent_access.rb" changelist="48445419-a9bd-462b-a38e-4f503de87dd4" time="1377552038977" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,19 +130,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Rakefile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Rakefile">
+      <file leaf-file-name="version.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/shadow_db_credentials/version.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="32" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0">
+            <state line="1" column="18" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shadow_db_credentials.gemspec.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/shadow_db_credentials.gemspec.erb">
+      <file leaf-file-name="shadow_db_credentials.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/shadow_db_credentials.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="31" selection-start="339" selection-end="339" vertical-scroll-proportion="0.17706576">
+            <state line="1" column="53" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CHANGES" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CHANGES">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="2" selection-start="269" selection-end="326" vertical-scroll-proportion="0.6213592">
               <folding />
             </state>
           </provider>
@@ -139,19 +175,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/.ruby-gemset" />
-        <option value="$PROJECT_DIR$/lib/shadow_db_credentials.rb" />
-        <option value="$PROJECT_DIR$/.ruby-version" />
-        <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
-        <option value="$PROJECT_DIR$/spec/shadow_db_credentials_spec.rb" />
+        <option value="$PROJECT_DIR$/Rakefile" />
         <option value="$PROJECT_DIR$/shadow_db_credentials.gemspec" />
         <option value="$PROJECT_DIR$/shadow_db_credentials.gemspec.erb" />
+        <option value="$PROJECT_DIR$/lib/shadow_db_credentials/hash_with_undifferent_access.rb" />
+        <option value="$PROJECT_DIR$/lib/shadow_db_credentials/keys.rb" />
+        <option value="$PROJECT_DIR$/lib/shadow_db_credentials/hash_with_indifferent_access.rb" />
+        <option value="$PROJECT_DIR$/lib/shadow_db_credentials/indifferent_access.rb" />
+        <option value="$PROJECT_DIR$/lib/shadow_db_credentials/activesupport/core_ext/hash/indifferent_access.rb" />
+        <option value="$PROJECT_DIR$/lib/shadow_db_credentials/activesupport/hash_with_indifferent_access.rb" />
+        <option value="$PROJECT_DIR$/lib/shadow_db_credentials.rb" />
+        <option value="$PROJECT_DIR$/spec/shadow_db_credentials_spec.rb" />
         <option value="$PROJECT_DIR$/lib/shadow_db_credentials/shadow_db_credentials.rb" />
+        <option value="$PROJECT_DIR$/lib/active_support/hash_with_indifferent_access.rb" />
+        <option value="$PROJECT_DIR$/lib/active_support/core_ext/hash/indifferent_access.rb" />
         <option value="$PROJECT_DIR$/lib/shadow_db_credentials/version.rb" />
         <option value="$PROJECT_DIR$/CHANGES" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/Rakefile" />
       </list>
     </option>
   </component>
@@ -201,8 +240,8 @@
       <showLibraryContents />
       <hideEmptyPackages />
       <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
       <sortByType />
     </navigator>
     <panes>
@@ -212,6 +251,90 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="shadow_db_credentials" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shadow_db_credentials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rspec-core (v2.14.5, RVM: ruby-2.0.0-p247 [shadow_db_credentials]) [gem]" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rspec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shadow_db_credentials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rspec-core (v2.14.5, RVM: ruby-2.0.0-p247 [shadow_db_credentials]) [gem]" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rspec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shadow_db_credentials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rspec-core (v2.14.5, RVM: ruby-2.0.0-p247 [shadow_db_credentials]) [gem]" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shadow_db_credentials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rspec-core (v2.14.5, RVM: ruby-2.0.0-p247 [shadow_db_credentials]) [gem]" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -244,36 +367,23 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="175" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="177" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="176" />
-    <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="186" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="974" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="976" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="182" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="178" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
+    <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/lib/shadow_db_credentials/activesupport" />
+      <recent name="$PROJECT_DIR$/lib/shadow_db_credentials/activesupport/core_ext/hash" />
       <recent name="$PROJECT_DIR$/lib/shadow_db_credentials" />
     </key>
   </component>
-  <component name="RunManager" selected="RSpec.ShadowDbCredentials should retrieve given configuration">
+  <component name="RunManager" selected="RSpec.shadow_db_credentials_spec">
     <configuration default="false" name="ShadowDbCredentials" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="shadow_db_credentials" />
@@ -374,7 +484,9 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <RunnerSettings RunnerId="RubyDebugRunner" />
       <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyDebugRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
@@ -411,6 +523,40 @@
       <RunnerSettings RunnerId="RubyDebugRunner" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyDebugRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="shadow_db_credentials_spec" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="shadow_db_credentials" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/spec/shadow_db_credentials_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
@@ -490,18 +636,20 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="RSpec.ShadowDbCredentials" />
       <item index="1" class="java.lang.String" itemvalue="RSpec.ShadowDbCredentials should read credentials from the file" />
       <item index="2" class="java.lang.String" itemvalue="RSpec.ShadowDbCredentials should process credentials attrubute" />
       <item index="3" class="java.lang.String" itemvalue="RSpec.ShadowDbCredentials should retrieve given configuration" />
+      <item index="4" class="java.lang.String" itemvalue="RSpec.shadow_db_credentials_spec" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.ShadowDbCredentials should retrieve given configuration" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.ShadowDbCredentials should process credentials attrubute" />
-        <item index="2" class="java.lang.String" itemvalue="RSpec.ShadowDbCredentials should read credentials from the file" />
-        <item index="3" class="java.lang.String" itemvalue="RSpec.ShadowDbCredentials" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="RSpec.shadow_db_credentials_spec" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.ShadowDbCredentials should retrieve given configuration" />
+        <item index="2" class="java.lang.String" itemvalue="RSpec.shadow_db_credentials_spec" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.ShadowDbCredentials should process credentials attrubute" />
+        <item index="4" class="java.lang.String" itemvalue="RSpec.ShadowDbCredentials should read credentials from the file" />
       </list>
     </recent_temporary>
   </component>
@@ -532,36 +680,32 @@
       <created>1377291422800</created>
       <updated>1377291422800</updated>
     </task>
-    <task id="LOCAL-00006" summary="Small API addition">
-      <created>1377358863639</created>
-      <updated>1377358863639</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="332" y="22" width="1588" height="1058" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32882413" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917964" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32778355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25940338" sideWeight="0.67117584" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Jenkins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2626459" sideWeight="0.6722164" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23517169" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298647" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298647" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882413" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298647" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="jenkinsBrowser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917964" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Jenkins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -608,7 +752,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Small API addition" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bug fixes; adf license to gemspec" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -625,74 +769,32 @@
     <MESSAGE value="bug fixes" />
     <MESSAGE value="Small API and build changes; writing documentation" />
     <MESSAGE value="Bug fixes; adf license to gemspec" />
-    <MESSAGE value="Small API addition" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="ruby-line">
           <url>file://$PROJECT_DIR$/spec/shadow_db_credentials_spec.rb</url>
-          <line>26</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/spec/shadow_db_credentials_spec.rb</url>
-          <line>38</line>
+          <line>39</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="13" />
+      <option name="time" value="15" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/shadow_db_credentials/shadow_db_credentials.rb">
+    <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="79" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/shadow_db_credentials/version.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="18" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/shadow_db_credentials.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="39" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/shadow_db_credentials_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="29" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0">
+        <state line="11" column="20" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p247@shadow_db_credentials/gems/gemspec_deps_gen-1.0.5/lib/gemspec_deps_gen/gemspec_deps_gen.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="9" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shadow_db_credentials.gemspec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="922" selection-end="922" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/shadow_db_credentials/version.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="37" selection-start="50" selection-end="50" vertical-scroll-proportion="0.07293355" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/shadow_db_credentials/shadow_db_credentials.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="10" selection-start="1279" selection-end="1279" vertical-scroll-proportion="0.3922204" />
+        <state line="16" column="69" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -700,41 +802,101 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="27" selection-start="2800" selection-end="2800" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.ruby-gemset">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.ruby-version">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="137" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0">
+        <state line="138" column="17" selection-start="3374" selection-end="3374" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CHANGES">
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="123" selection-start="121" selection-end="121" vertical-scroll-proportion="0.24311183" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Rakefile">
+    <entry file="file://$PROJECT_DIR$/shadow_db_credentials.gemspec">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="32" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0">
+        <state line="20" column="0" selection-start="922" selection-end="922" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/active_support/core_ext/hash/indifferent_access.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="65" selection-start="131" selection-end="131" vertical-scroll-proportion="0.07779579">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/active_support/core_ext/hash/keys.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="70" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0923825">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/active_support/hash_with_indifferent_access.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="178" column="0" selection-start="4793" selection-end="4793" vertical-scroll-proportion="0.94813615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/shadow_db_credentials/shadow_db_credentials.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="49" selection-start="72" selection-end="72" vertical-scroll-proportion="0.051863857">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p247@shadow_db_credentials/gems/rspec-core-2.14.5/lib/rspec/core/memoized_helpers.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="198" column="0" selection-start="6885" selection-end="6885" vertical-scroll-proportion="0.3808752">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/shadow_db_credentials_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="30" selection-start="22" selection-end="22" vertical-scroll-proportion="0.025931928">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/shadow_db_credentials/version.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="18" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/shadow_db_credentials.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="53" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shadow_db_credentials.gemspec.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="31" selection-start="339" selection-end="339" vertical-scroll-proportion="0.17706576">
+        <state line="18" column="63" selection-start="920" selection-end="920" vertical-scroll-proportion="0.4864865">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CHANGES">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="2" selection-start="269" selection-end="326" vertical-scroll-proportion="0.6213592">
           <folding />
         </state>
       </provider>

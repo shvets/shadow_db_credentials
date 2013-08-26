@@ -25,6 +25,7 @@ describe ShadowDbCredentials do
     result = subject.process_configurations configurations
 
     result[:production][:url].should == 'some_url'
+    result['production']['url'].should == 'some_url'
   end
 
   it "should retrieve given configuration" do
@@ -36,6 +37,6 @@ TEXT
 
     result = subject.retrieve_configuration "development", source
 
-    result[:development][:url].should == 'some_url'
+    result[:url].should == 'some_url'
   end
 end

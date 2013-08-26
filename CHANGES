@@ -19,3 +19,7 @@
 == Version 1.1.2
 
 * Small API addition
+
+== Version 1.1.3
+
+* Adding with_indifferent_access from activesupport library

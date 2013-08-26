@@ -1,4 +1,5 @@
 require 'erb'
+require 'active_support/core_ext/hash/indifferent_access'
 
 class ShadowDbCredentials
 
@@ -11,19 +12,19 @@ class ShadowDbCredentials
 
     template = ERB.new file.read
 
-    config = indifferent_access(YAML.load(template.result(binding)))
+    config = YAML.load(template.result(binding)).with_indifferent_access
 
-    process_credentials(config[rails_env.to_sym])
+    process_credentials(config[rails_env])
   end
 
   def process_configurations configurations
     new_configurations = {}
 
     configurations.each do |name, config|
-      new_configurations[name] = process_credentials(indifferent_access(config))
+      new_configurations[name] = process_credentials(config)
     end
 
-    new_configurations
+    new_configurations.with_indifferent_access
   end
 
   def process_configuration configurations, rails_env
@@ -31,7 +32,7 @@ class ShadowDbCredentials
 
     config = configurations[rails_env]
 
-    new_configurations[rails_env] = process_credentials(indifferent_access(config))
+    new_configurations[rails_env] = process_credentials(config)
 
     new_configurations
   end
@@ -45,7 +46,7 @@ class ShadowDbCredentials
       file_name = "#{@credentials_dir}/#{credentials}"
 
       if File.exist? file_name
-        config.merge!(indifferent_access(YAML.load_file(file_name)))
+        config.merge!(YAML.load_file(file_name).with_indifferent_access)
       else
         puts "Missing credentials file: #{file_name}."
       end
@@ -54,19 +55,5 @@ class ShadowDbCredentials
     config
   end
 
-  def indifferent_access hash
-    case hash
-      when Hash
-        Hash[
-          hash.map do |k, v|
-            [ k.respond_to?(:to_sym) ? k.to_sym : k, indifferent_access(v) ]
-          end
-        ]
-      when Enumerable
-        hash.map { |v| indifferent_access(v) }
-      else
-        hash
-    end
-  end
 end
 
