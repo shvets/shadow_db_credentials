@@ -4,7 +4,7 @@ require File.expand_path(File.dirname(__FILE__) + '/lib/shadow_db_credentials/ve
 
 Gem::Specification.new do |spec|
   spec.name          = "shadow_db_credentials"
-  spec.summary       = %q{Class that helps to keep database credentials for rails application in private place}
+  spec.summary       = %q{Class that helps to keep database credentials for rails application in private place.}
   spec.description   = %q{Class that helps to keep database credentials for rails application in private place}
   spec.email         = "alexander.shvets@gmail.com"
   spec.authors       = ["Alexander Shvets"]
@@ -19,8 +19,9 @@ Gem::Specification.new do |spec|
   spec.license       = "MIT"
 
   
-  spec.add_development_dependency "gemspec_deps_gen", [">= 0"]
-  spec.add_development_dependency "gemcutter", [">= 0"]
+  spec.add_development_dependency "gemspec_deps_gen", ["= 1.1.2"]
+  spec.add_development_dependency "gemcutter", ["= 0.7.1"]
+  spec.add_development_dependency "thor", ["= 0.19.4"]
 
 end
 
